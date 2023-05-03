@@ -1,7 +1,0 @@
-var answers = ["quiz_answer_1_13ce63ae-f53e-4e41-b24b-dad932ab2829", "quiz_answer_2_e311bfa6-7bf8-45e1-8501-73d322d08755", "quiz_answer_3_0e3e7b91-fa06-4e93-9069-3b1a05350a47", "quiz_answer_4_2847638f-f198-4908-9f09-e32c4dfe4b15", "quiz_answer_5_d35baa6b-5b4e-49d1-a5cf-98a4e902b9fb", "quiz_answer_6_3a5a070e-90eb-47f6-a65c-b253eff9deac", "quiz_answer_7_cbae72b7-1b25-40a0-93ef-971768752606", "quiz_answer_8_4d5e98e4-fefb-4c0e-a6ff-a174eb61e2a5"];
-
-for (var i = 0; i < answers.length; i++) {
-  document.getElementById(answers[i]).click();
-}
-
-document.getElementsByClassName("js-submit c-button c-button--large ht")[0].click();
